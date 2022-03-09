@@ -1,0 +1,7 @@
+.posts{
+    background-color: rgb(215, 240, 240);
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
