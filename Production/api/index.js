@@ -17,7 +17,7 @@ const { error } = require("console");
 app.use(express.json())
 app.use("/images", express.static(path.join(__dirname, "/images")));
 
-mongoose.connect("mongodb://localhost:27017/BlogUsers" , {
+mongoose.connect(process.env.DATABASE , {
 
     useNewUrlParser : true,
     useUnifiedTopology : true,
